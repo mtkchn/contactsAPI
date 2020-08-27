@@ -10,13 +10,18 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 public class ContactsSearchValues {
-
     // pagination
     private Integer pageNumber;
     private Integer pageSize;
 
-    // sort
-//    private String sortColumn;
-//    private String sortDirection;
+    //seatch
+    private String name;
+    private String type;
+    private String email;
+    private String phone;
+
+    // sorting
+    private String sortColumn;
+    private String sortDirection;
 
 }
